@@ -6,7 +6,7 @@ def maximumProfit(prices: List[int]) -> int:
     for i in range(1, len(prices)):
         if prices[i] > prices[i - 1]:  # Add profit when price increases
             res += prices[i] - prices[i - 1]
-    return res
+    return res   
 
 # Define prices before calling the function
 prices1 = [100, 180, 260, 310, 40, 535, 695]
