@@ -9,7 +9,7 @@ class Solution:
         temp=[0]*n  
         for i in range(n-d):
             temp[i]=arr[d+i]   
-        for i in range(d):
+        for i in range(d):   
             temp[n-d+i]=arr[i]
         for i in range(n):
             arr[i]=temp[i]
