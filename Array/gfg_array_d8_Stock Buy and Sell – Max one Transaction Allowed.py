@@ -8,7 +8,7 @@ class Solution:
         
         for i in range(1, len(prices)):
             min_so_far = min(min_so_far, prices[i])
-            max_profit = max(max_profit, prices[i] - min_so_far)
+            max_profit = max(max_profit, prices[i] - min_so_far)   
         
         return max_profit
 
