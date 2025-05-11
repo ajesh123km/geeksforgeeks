@@ -6,7 +6,7 @@ class Solution:
         #Your code here
         n=len(arr)
         d%=n
-        temp=[0]*n 
+        temp=[0]*n  
         for i in range(n-d):
             temp[i]=arr[d+i]
         for i in range(d):
