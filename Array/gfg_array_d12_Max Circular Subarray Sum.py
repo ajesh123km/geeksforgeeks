@@ -11,7 +11,7 @@ def circularSubarraySum(arr):
 
     total_sum = sum(arr)
     for i in range(len(arr)):
-        arr[i] = -arr[i]  # Invert the array to find the min sum subarray
+        arr[i] = -arr[i]  # Invert the array to find the min sum subarray 
 
     max_wrap = total_sum + kadane(arr)  # Circular max sum
 
