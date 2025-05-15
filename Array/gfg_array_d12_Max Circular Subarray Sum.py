@@ -9,7 +9,7 @@ def kadane(arr):
 def circularSubarraySum(arr):
     max_kadane = kadane(arr)  # Max sum using Kadane's Algorithm
 
-    total_sum = sum(arr)
+    total_sum = sum(arr) 
     for i in range(len(arr)):
         arr[i] = -arr[i]  # Invert the array to find the min sum subarray 
 
