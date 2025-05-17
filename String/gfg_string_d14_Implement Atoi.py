@@ -11,7 +11,7 @@ def myAtoi(s: str) -> int:
             sign = -1
         idx += 1
 
-    while idx < len(s) and '0' <= s[idx] <= '9':
+    while idx < len(s) and '0' <= s[idx] <= '9': 
         res = 10 * res + (ord(s[idx]) - ord('0'))
 
         if res > (2**31 - 1):
