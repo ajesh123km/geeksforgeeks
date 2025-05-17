@@ -20,6 +20,6 @@ def myAtoi(s: str) -> int:
         idx += 1
 
     return res * sign
-
+ 
 s = " -0012g4"
 print(myAtoi(s))
