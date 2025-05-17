@@ -3,7 +3,7 @@ def myAtoi(s: str) -> int:
     res = 0
     idx = 0
  
-    while idx < len(s) and s[idx] == ' ':
+    while idx < len(s) and s[idx] == ' ': 
         idx += 1
  
     if idx < len(s) and (s[idx] == '-' or s[idx] == '+'):
