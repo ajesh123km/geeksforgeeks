@@ -2,7 +2,7 @@ def myAtoi(s: str) -> int:
     sign = 1
     res = 0
     idx = 0
-
+ 
     while idx < len(s) and s[idx] == ' ':
         idx += 1
 
