@@ -5,7 +5,7 @@ def myAtoi(s: str) -> int:
  
     while idx < len(s) and s[idx] == ' ':
         idx += 1
-
+ 
     if idx < len(s) and (s[idx] == '-' or s[idx] == '+'):
         if s[idx] == '-':
             sign = -1
