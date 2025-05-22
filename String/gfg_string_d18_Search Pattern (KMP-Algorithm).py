@@ -14,7 +14,7 @@ class Solution:
                 length += 1
                 lps[i] = length
 
-        # Search the pattern in the text
+        # Search the pattern in the text  
         i = j = 0
         while i < n:
             if txt[i] == pat[j]:
