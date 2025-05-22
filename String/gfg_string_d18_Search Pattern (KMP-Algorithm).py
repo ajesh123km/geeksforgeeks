@@ -5,7 +5,7 @@ class Solution:
         lps = [0] * m
         res = []
 
-        # Preprocess the pattern (calculate lps[] array)
+        # Preprocess the pattern (calculate lps[] array) 
         length = 0  # length of the previous longest prefix suffix
         for i in range(1, m):
             while length > 0 and pat[i] != pat[length]:
