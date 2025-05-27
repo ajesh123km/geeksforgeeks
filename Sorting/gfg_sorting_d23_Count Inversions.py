@@ -22,6 +22,7 @@ class Solution:
             j += 1
             k += 1
         return res  # Return after merging is fully done
+        
     def countinv(self, arr, l, r):
         if l >= r:
             return 0
@@ -30,7 +31,6 @@ class Solution:
 
     def inversionCount(self, arr):
         return self.countinv(arr, 0, len(arr)-1)
-
 
 # Example Usage:
 arr = [2, 4, 1, 3, 5]
