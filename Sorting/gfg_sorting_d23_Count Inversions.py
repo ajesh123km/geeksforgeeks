@@ -11,6 +11,7 @@ class Solution:
                 res += (n1 - i)
                 j += 1
             k += 1
+            
         # Merging remaining elements (these loops must be outside the main while loop)
         while i < n1:
             arr[k] = left[i]
@@ -27,9 +28,9 @@ class Solution:
         m = (r + l) // 2
         return self.countinv(arr, l, m) + self.countinv(arr, m+1, r) + self.countandmerge(arr, l, m, r)
 
-
     def inversionCount(self, arr):
         return self.countinv(arr, 0, len(arr)-1)
+
 
 # Example Usage:
 arr = [2, 4, 1, 3, 5]
