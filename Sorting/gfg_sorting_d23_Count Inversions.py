@@ -11,7 +11,6 @@ class Solution:
                 res += (n1 - i)
                 j += 1
             k += 1
-
         # Merging remaining elements (these loops must be outside the main while loop)
         while i < n1:
             arr[k] = left[i]
