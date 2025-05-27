@@ -27,6 +27,7 @@ class Solution:
         m = (r + l) // 2
         return self.countinv(arr, l, m) + self.countinv(arr, m+1, r) + self.countandmerge(arr, l, m, r)
 
+
     def inversionCount(self, arr):
         return self.countinv(arr, 0, len(arr)-1)
 
