@@ -20,9 +20,7 @@ class Solution:
             arr[k] = right[j]
             j += 1
             k += 1
-
         return res  # Return after merging is fully done
-
     def countinv(self, arr, l, r):
         if l >= r:
             return 0
