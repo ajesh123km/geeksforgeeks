@@ -1,7 +1,6 @@
 def mergeOverlap(arr):
     # Sort intervals by the start value
     arr.sort(key=lambda x: x[0])
-    
     res = []
     
     for start, end in arr:
