@@ -7,7 +7,6 @@ def mergeOverlap(arr):
             res[-1][1] = max(res[-1][1], end)
         else:
             res.append([start, end])
-    
     return res
 
 arr = [[7, 8], [1, 5], [2, 4], [4, 6]]
