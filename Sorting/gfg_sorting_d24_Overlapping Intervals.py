@@ -9,6 +9,7 @@ def mergeOverlap(arr):
             res.append([start, end])
     return res
 
+
 arr = [[7, 8], [1, 5], [2, 4], [4, 6]]
 res = mergeOverlap(arr)
 for interval in res:
