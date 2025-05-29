@@ -24,5 +24,6 @@ if __name__ == "__main__":
     intervals = [[1, 3], [4, 5], [6, 7], [8, 10]]
     newInterval = [5, 6]
     res = insertInterval(intervals, newInterval)
+    
     for interval in res:
         print(interval[0], interval[1])
