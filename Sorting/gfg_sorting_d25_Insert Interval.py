@@ -3,7 +3,6 @@ def insertInterval(intervals, newInterval):
     i = 0
     n = len(intervals)
 
-    
     while i < n and intervals[i][1] < newInterval[0]:
         res.append(intervals[i])
         i += 1
