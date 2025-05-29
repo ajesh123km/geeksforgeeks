@@ -20,6 +20,7 @@ def insertInterval(intervals, newInterval):
 
     return res
 
+
 if __name__ == "__main__":
     intervals = [[1, 3], [4, 5], [6, 7], [8, 10]]
     newInterval = [5, 6]
