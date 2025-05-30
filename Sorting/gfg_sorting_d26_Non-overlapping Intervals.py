@@ -11,6 +11,7 @@ def minRemoval(intervals):
             end = intervals[i][1]
 
     return cnt
+    
 
 if __name__ == "__main__":
     intervals = [[1, 2], [2, 3], [3, 4], [1, 3]]
