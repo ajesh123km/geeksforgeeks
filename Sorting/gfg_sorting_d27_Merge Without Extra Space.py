@@ -1,7 +1,7 @@
 def mergeArrays(a, b):
     i = len(a) - 1
     j = 0
-
+    
     while i >= 0 and j < len(b):
         if a[i] < b[j]:
             i -= 1
