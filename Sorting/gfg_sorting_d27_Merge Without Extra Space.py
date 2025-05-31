@@ -17,7 +17,7 @@ if __name__ == "__main__":
     a = [1, 5, 9, 10, 15, 20]
     b = [2, 3, 8, 13]
     mergeArrays(a, b)
-
+    
     for ele in a:
         print(ele, end=' ')
     print()
