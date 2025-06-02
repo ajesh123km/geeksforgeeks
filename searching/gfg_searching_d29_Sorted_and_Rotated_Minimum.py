@@ -3,7 +3,6 @@ def findMin(arr):
 
     for i in range(1, len(arr)):
         res = min(res, arr[i])
-
     return res
 
 if __name__ == "__main__":
