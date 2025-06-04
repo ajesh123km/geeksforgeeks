@@ -13,7 +13,7 @@ def peakElement(arr):
 
         if left and right:
             return i
-
+ 
 if __name__ == "__main__":
     arr = [1, 2, 4, 5, 7, 8, 3]
     print(peakElement(arr))
