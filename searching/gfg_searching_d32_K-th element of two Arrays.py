@@ -10,6 +10,7 @@ def kthElement(a, b, k):
     arr.sort()
     
     return arr[k - 1]
+    
 
 if __name__ == "__main__":
     a = [2, 3, 6, 7, 9]
