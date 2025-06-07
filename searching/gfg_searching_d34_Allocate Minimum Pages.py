@@ -2,7 +2,7 @@
 def check(arr, k, pageLimit):
     cnt = 1
     pageSum = 0
-    for pages in arr:
+    for pages in arr:  
         if pageSum + pages > pageLimit:
             cnt += 1
             pageSum = pages
