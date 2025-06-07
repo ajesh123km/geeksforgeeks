@@ -34,6 +34,6 @@ def findPages(arr, k):
 
 # Example usage
 if __name__ == "__main__":
-    arr = [12, 34, 67, 90]
+    arr = [12, 34, 67, 90]  
     k = 2
     print(findPages(arr, k))  # Output: 113
