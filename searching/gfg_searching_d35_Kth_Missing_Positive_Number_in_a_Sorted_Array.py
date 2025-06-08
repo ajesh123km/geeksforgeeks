@@ -10,6 +10,7 @@ def kthMissing(arr, k):
     
     return curr
 
+
 if __name__ == "__main__":
     arr = [2, 3, 4, 7, 11]
     k = 5
